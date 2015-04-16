@@ -1,4 +1,11 @@
+# Apache Storm for Ubuntu 14.04
+#
+# GitHub - http://github.com/dalekurt/docker-base
+# Docker Hub - http://hub.docker.com/u/dalekurt/storm
+# Twitter - http://www.twitter.com/dalekurt
+
 FROM stackbrew/ubuntu:14.04
+
 MAINTAINER Dale-Kurt Murray "dalekurt.murray@gmail.com"
 
 # Basic environment setup
