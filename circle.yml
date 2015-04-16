@@ -10,7 +10,6 @@ dependencies:
 test:
   override:
     - docker run -d -p 2222:22 dalekurt/base; sleep 10
-    - curl --retry 10 --retry-delay 5 -v http://localhost:22
 
 deployment:
   hub:
