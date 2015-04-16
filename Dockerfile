@@ -9,7 +9,7 @@ FROM stackbrew/ubuntu:14.04
 MAINTAINER Dale-Kurt Murray "dalekurt.murray@gmail.com"
 
 # Basic environment setup
-RUN apt-get update; apt-get install -y unzip default-jdk wget supervisor docker.io openssh-server
+RUN apt-get update; apt-get install -y unzip openjdk-7-jdk openjdk-7-doc openjdk-7-jre-lib wget supervisor docker.io openssh-server
 ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64/
 
 # Set default password
