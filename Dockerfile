@@ -1,7 +1,7 @@
-# Oracle Java for Ubuntu 14.04
+# Base for Ubuntu 14.04
 #
 # GitHub - http://github.com/dalekurt/docker-base
-# Docker Hub - http://hub.docker.com/u/dalekurt/storm
+# Docker Hub - http://hub.docker.com/u/dalekurt/base
 # Twitter - http://www.twitter.com/dalekurt
 
 FROM stackbrew/ubuntu:14.04
